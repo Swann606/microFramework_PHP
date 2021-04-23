@@ -1,0 +1,313 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans&family=Pacifico&display=swap');
+
+
+body{
+    /* background-image: url(../img/fondu.svg); */
+    background-size: 300px;
+    background-attachment: fixed;
+    font-family: 'Noto Sans', sans-serif;
+    color : #004455ff;
+}
+
+header {
+    position: fixed;
+    z-index: 2;
+    background-color: #004455ff;
+    font-size : 2rem;
+    color : white;
+}
+
+#mainContainer{
+    padding-top: 200px;
+    background-color: white;
+
+}
+.form{
+    padding-left: 30px;
+}
+
+
+
+.btn{
+    font-weight: bold;
+    background-color: #F8A900;
+    color: white;
+}
+
+#logo {
+    padding: 10px;
+    width: 80px;
+    height: 80px;
+}
+#typo {
+    padding: 10px;
+    height: 60px;
+}
+
+.ico {
+    height: 50px;
+    padding: 10px;
+}
+
+a {
+    text-decoration: none;
+    text-align: center;
+    color: white;
+}
+
+a:link {
+    text-decoration: none;
+}
+
+a:visited {
+    text-decoration: none;
+    color: white;
+}
+
+a:hover {
+    text-decoration: none;
+    color: white;
+}
+
+.dropbtn {
+    cursor: pointer;
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+.dropdown-content a {
+    color: #004455ff;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown-content a:hover {background-color: #f1f1f1}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.dropdown:hover .dropbtn {
+    background-color: #3e8e41;
+}
+
+h1 {
+    padding-top: 100px;
+    font-family: 'Pacifico', cursive;
+    font-size: 5rem;
+    color:#004455ff ;
+    text-align: center;
+}
+
+
+#contentBox {
+    background-color: white;
+    padding-top: 15vh;
+    min-height: 90vh;
+}
+
+#bienvenueBox{
+    height: 640px;
+    background-image: url("../img/Avocado-Ice-Cream4.jpg") ;
+    background-size: contain;
+    background-repeat: no-repeat;
+    text-align: center;
+}
+
+
+.linkBox {
+    height: 200px;
+    width: 200px;
+    padding-top: 20px;
+    align-items: center;
+    border-radius: 10px;
+    border: solid whitesmoke 2px;
+}
+
+.imgBox{
+    margin-left: auto;
+    margin-right: auto;
+    height: 100px;
+    width: 100px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    align-items: center;
+}
+
+
+.center {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+h2{
+    margin-top: 60px;
+    margin-bottom: 60px;
+    color:#004455ff;
+    text-align: center;
+
+}
+
+
+textarea {
+    min-height: 25vh;
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+fieldset{
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#errorMsg{
+    color:red;
+}
+
+.menuNav{
+    padding-top: 110px;
+    min-height: 150px;
+   background: transparent;
+    z-index: 1;
+    text-align: center;
+}
+
+.btnmenu{
+
+    font-size: 18px;
+
+}
+.btnmenu:link {
+    text-decoration: none;
+    color:black ;
+}
+
+.btnmenu:visited {
+    text-decoration: none;
+    color:black ;
+}
+
+.btnmenu:hover {
+    text-decoration: none;
+    color:black ;
+}
+
+.deleteIngredientBtn{
+    background-image: url("../img/gum.png") ;
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 30px;
+    width : 30px;
+    color: transparent;
+}
+
+#afficheRecette{
+    min-width: 400px;
+    width: 40%;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.btnRetour{
+
+    border-radius: 10px;
+    background-color: #004455ff ;
+    color : white;
+    padding : 10px;
+    font-size: 15px;
+
+}
+
+.validButton{
+    background-color: cadetblue;
+    color : white;
+    border: none;
+    padding : 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+    font-size: 18px;
+    cursor: pointer;
+}
+
+.okButton{
+    margin-left: 20px;
+
+}
+
+
+.buttonGroup{
+    margin-left: 30px;
+}
+
+.msgBoxcatalog{
+    color: #004455ff ;
+    padding-top: 0.2rem;
+    font-size: 1.2rem;
+}
+
+.modifBtn{
+    width : 30px;
+    height: 30px;
+    background-color: white;
+    background-image: url("../img/edit.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    border: none;
+    color :  transparent;
+}
+
+.deleteBtn{
+    width: 30px;
+    height: 30px;
+    background-color: white;
+    background-image: url("../img/delete.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    border: none;
+    color :  transparent;
+}
+
+.cacheficher{
+    padding-left: 10px;
+    border: none;
+}
+
+#force_du_password {
+    display:none;
+    font-size:14px;
+}
+
+#password:focus ~ #force_du_password.visible {
+    /* #force_du_password portant la classe .visible, et se trouvant après #champ_password qui aurait le focus. On ne peut pas utiliser "+" car les éléments concernés ne se suivent pas immédiatement */
+    display:inline;
+}
+
+#erreurs {
+    min-height: 10vh;
+}
+
+input {
+
+    border: 2px black !important;
+
+}
+
+.recipeCard {
+    color : #004455ff;
+    
+}
