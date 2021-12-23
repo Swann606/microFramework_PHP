@@ -1,8 +1,8 @@
 <?php
 
-// Router : créer les route et trouve le contoller
+// Router : créer les routes et trouve le contoller
 
-// $route : associe la request et sont controlleur associé
+// $route : associe la requête et son controlleur associé
 
 class Router 
 {
